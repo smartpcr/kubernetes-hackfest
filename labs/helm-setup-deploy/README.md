@@ -79,7 +79,7 @@ In this lab we will setup Helm in our AKS cluster and deploy our application wit
         deploy:
         name: data-api
         replicas: 1
-        acrServer: "youracr.azurecr.io"
+        acrServer: "aamvadevacr.azurecr.io"
         imageTag: "1.0"
         containerPort: 3009
         ```
