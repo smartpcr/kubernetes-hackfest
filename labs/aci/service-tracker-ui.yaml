@@ -18,11 +18,11 @@ spec:
           name: service-tracker-ui
           env:
             - name: FLIGHT_API_ROOT
-              value: http://flights-api.hackfest.svc.cluster.local:3003/
+              value: http://flights-api.aamva.svc.cluster.local:3003/
             - name: WEATHER_API_ROOT
-              value: http://weather-api.hackfest.svc.cluster.local:3015/
+              value: http://weather-api.aamva.svc.cluster.local:3015/
             - name: QUAKES_API_ROOT
-              value: http://quakes-api.hackfest.svc.cluster.local:3012/
+              value: http://quakes-api.aamva.svc.cluster.local:3012/
             - name: APPINSIGHTS_INSTRUMENTATIONKEY
               value: 4d49c908-17b6-4bc7-af5c-d19452132fcc
           ports:
